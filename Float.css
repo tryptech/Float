@@ -39,7 +39,7 @@
     transition: padding-left var(--float-app-transition-speed) ease;
 }
 
-@media (width: 1441px) {
+@media (width: 940px) {
 
     .bd-addon-list #Float-card .bd-addon-header::before,
     .panels-3wFtMD .button-12Fmur[aria-label="User Settings"]::before {
@@ -128,7 +128,7 @@
     }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 700px) {
 
     .membersWrap-3NUR2t,
     .ChannelDms-channelmembers-wrap {
@@ -274,7 +274,7 @@
 
 }
 
-@media (max-width: 1440px) {
+@media (max-width: 700px) {
 
     /* transition */
     #app-mount,
@@ -457,7 +457,7 @@
 
     /* image attachment resize */
 
-    /* .embedWrapper-1MtIDg,
+    .embedWrapper-1MtIDg,
     .embedWrapper-1MtIDg>.imageWrapper-oMkQl4,
     .embedWrapper-1MtIDg>.grid-1aWVsE>.imageWrapper-oMkQl4 {
         height: auto !important;
@@ -471,7 +471,7 @@
         height: auto !important;
         width: unset !important;
         max-width: 100%;
-    } */
+    }
 
     /* channel */
     html:not(.platform-osx) .base-2jDfDU {
