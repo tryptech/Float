@@ -39,7 +39,7 @@
     transition: padding-left var(--float-app-transition-speed) ease;
 }
 
-@media (width: 940px) {
+@media (width: 1441px) {
 
     .bd-addon-list #Float-card .bd-addon-header::before,
     .panels-3wFtMD .button-12Fmur[aria-label="User Settings"]::before {
@@ -128,7 +128,7 @@
     }
 }
 
-@media (min-width: 700px) {
+@media (min-width: 1440px) {
 
     .membersWrap-3NUR2t,
     .ChannelDms-channelmembers-wrap {
@@ -274,7 +274,7 @@
 
 }
 
-@media (max-width: 700px) {
+@media (max-width: 1440px) {
 
     /* transition */
     #app-mount,
