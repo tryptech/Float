@@ -1,6 +1,6 @@
-@import url(https://smolalli.github.io/Themes/MinimalMode/source.css) (max-width: 700px);
-
 :root {
+    --maximum-width: 776px;
+
     --header-height: 40px;
     --guildbar-width: 56px;
     --sidebar-width: 240px;
@@ -12,6 +12,8 @@
     --float-sidebar-hide-width: 40px;
     --float-guildbar-hover-speed: 0.5s;
 }
+
+@import url(https://smolalli.github.io/Themes/MinimalMode/source.css) (max-width: var(--maximum-width));
 
 /* return transition */
 /* 400 */
@@ -128,7 +130,7 @@
     }
 }
 
-@media (min-width: 700px) {
+@media (min-width: var(--maximum-width)) {
 
     .membersWrap-3NUR2t,
     .ChannelDms-channelmembers-wrap {
@@ -274,7 +276,7 @@
 
 }
 
-@media (max-width: 700px) {
+@media (max-width: var(--maximum-width)) {
 
     /* transition */
     #app-mount,
